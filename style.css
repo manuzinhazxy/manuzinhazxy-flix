@@ -12,7 +12,7 @@ header{
     color: rgb(42, 122, 228);
 }
 
- section{
+ .chamada{
     background: rgb(7, 70, 117);
     padding-bottom: 80px;
     padding-top: 80px;
@@ -30,4 +30,24 @@ h1{
 
 p{
     font-size: 20px;
+}
+
+.categoria-videos{
+    display: flex;
+    overflow-x: auto;
+    gap: 10px; 
+}
+
+
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.categoria-videos img {
+    opacity: 0.5;
+    height: 200px;
+}
+.categoria-videos img:hover {
+    opacity: 1.0 ;
 }
